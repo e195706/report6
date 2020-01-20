@@ -136,7 +136,7 @@ class Maze_First  {
                         }
                         System.out.println("|");
                         break;
-                            }
+                    }
                     case 3:{
                         for (int k = 0; k < xsize; k++) {
                             switch (k) {
@@ -369,7 +369,7 @@ class Player_Motion extends JFrame implements KeyListener {
 }
 
 
-public class Maze {
+public class Main {
     public static void main(String[] args){
         Player_Motion gw = new Player_Motion("迷路ゲーム",1,1);
         gw.setVisible(true);
